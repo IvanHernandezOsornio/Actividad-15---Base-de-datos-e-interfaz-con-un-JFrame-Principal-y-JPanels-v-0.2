@@ -11,12 +11,13 @@ CREATE TABLE contactos(
 
 
 INSERT INTO contactos (nombre, email, telefono) VALUES 
-('Dejah Thoris','dejah@barson.ma', '1112223344'), 
-('Jhon Carter','jhon@barson.ma', '5556667788'),
-('Carthoris Carter','carthoris@barson.ma', '9990001122'),
-('Alexis Andrés','aahr@email.com', '7751513633');
-
-
+('Dejah Thoris','dejah@barson.ma', '7751548796'), 
+('Jhon Carter','jhon@barson.ma', '7754758963'),
+('Carthoris Carter','carthoris@barson.ma', '7754896321'),
+('Luis hernandez','luis@hotmail.com.com', '7751961245'),
+('Nancy hernandez','nancy@hotmail.com.com', '7751965874'),
+('Ivan hernandez','ivan@hotmail.com.com', '7751964523'),
+('Anel hernandez','Anel@hotmail.com.com', '7751962519');
 SELECT * FROM contactos;
 
 CREATE USER 'user_mvc'@'localhost' IDENTIFIED BY 'pass_mvc.2018';
